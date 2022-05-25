@@ -1,4 +1,4 @@
-                                                                    Day-1
+                                                        Day-1
    **Writing and Running a Rust Program**
    
    make a new source file and call it main.rs. Rust files always end with the .rs extension.
