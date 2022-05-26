@@ -31,10 +31,29 @@
     
    The first command created a new directory called using_cargo. We’ve named our project using_cargo, and Cargo creates its files in a directory of the same name.
    In the using_cargo directory Cargo has generated two files and one directory for us: a Cargo.toml file and a src directory.
-  **Use cargo run to compile the code and then run all in one command**
+  **Use cargo run to compile and then run the code all in one command**
 
 
     $ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.0 secs
     Running `target/debug/hello_cargo`
     Hello, world! (Output)
+
+
+                                                            Day-2
+   **Variables**:
+   
+   By default variables are immutable in rust
+   
+    fn main() {
+      let x:i32;                      // Declaring x as 32bit signed integer
+      x = 1;
+      x +=1;
+      assert_eq!(x,3);
+      println!("success")
+    }
+   Save and run the program using cargo run. On running we will receive an error showing:
+   
+   **error[E0384]: cannot assign twice to immutable variable `x`**
+
+     
