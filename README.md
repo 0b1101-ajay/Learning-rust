@@ -59,6 +59,8 @@
  ```
    Save and run the program using cargo run. On running we will receive an error showing:
    #### error[E0384]: cannot assign twice to immutable variable `x`
+   
+   #### To make variable mutable prefix variable name with `mut` like `mut x` in above code.
 
      
      
